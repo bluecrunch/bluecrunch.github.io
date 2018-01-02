@@ -1,0 +1,133 @@
+body {
+  background-image: url("../images/greyzz.png");
+}
+
+.blockDiv {
+  display: block;
+}
+
+.relDiv{
+   position:relative;
+   bottom:100px;
+}
+
+.horizon {
+	height: 200px;
+}
+
+.r_siu {
+	max-width: 500px;
+}
+
+.r_login_body {
+background-image: url("../images/blue_wall.jpg");
+}
+
+.r_login_corp_body:before {
+/*background-image: url("../images/office.jpeg");*/
+
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  
+  display: block;
+  /*background-image: url('../images/index_whiteboard.jpg');*/
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,255,0.5);
+  -webkit-filter: saturate(0.2);
+  -moz-filter: saturate(0.2);
+  -o-filter: saturate(0.2);
+  -ms-filter: saturate(0.2);
+  filter: saturate(0.2);
+
+}
+
+.r_centered_div {
+
+  margin-top: 10%;
+}
+
+.r_form_elements {
+	margin-bottom: 50px;	
+}
+
+.r_caption {
+	font-style: bold;
+}
+
+/*scrolling element */
+.element { 
+  position:fixed; 
+  right: 15%;
+  top:50%; 
+  background-color: red; 
+  color: white;
+}
+
+.r_button:disabled {
+  background-color: gray; 
+}
+
+/*FEED ELEMENT CAPTION*/
+
+.feed_cap {
+  display:inline-block;
+}
+
+.aline {
+  list-style-type: none;
+}
+
+.avatar_feed {
+  /*heigth: 42px;*/
+  width: 42px;
+}
+
+/*SUBMIT BUTTON TO LINKS */
+form input[type="submit"]{
+
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*AJAX LIVE SEARCH*/
+  #display {
+   position: absolute;
+   width: 100%;
+   max-width:870px;
+   cursor: pointer;
+   overflow-y: auto;
+   max-height: 400px;
+   box-sizing: border-box;
+   z-index: 1001;
+   background-color: white;
+  }
+
+a.sk_link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+  #display_employer {
+   position: absolute;
+   width: 100%;
+   max-width:870px;
+   cursor: pointer;
+   overflow-y: auto;
+   max-height: 400px;
+   box-sizing: border-box;
+   z-index: 1001;
+   background-color: white;
+  }

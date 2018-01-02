@@ -1,0 +1,51 @@
+table {
+	max-width: 90%;
+	color: white;
+	font-size: 0.9em;
+	padding-top-bottom: 50px;
+}
+
+.rehme-content {
+	padding-top: 25px;
+	padding-bottom: 100px;
+	margin-bottom: 200px;
+}
+
+#head {
+		background-image: url("../images/wood.jpg");
+}
+
+.rehme-logo {
+	height: 50px;
+	margin-top: 10px;
+}
+
+.rehme-header {
+	height: 70px;
+}
+
+.rehme-navigation {
+	/*padding-top: 25px;*/
+}
+
+.rehme-list {
+	list-style-type:none;
+	line-height: 200%;
+}
+
+p {
+	line-height: 150%;
+}
+
+.rehme-footer {
+	min-height: 200px;
+	padding-top: 25px;
+}
+
+article {
+	font-size: 0.9em;
+}
+
+.avatar {
+	height: 200px;
+}
